@@ -3,8 +3,8 @@ var report, inputControls;
 
 visualize({
   auth: {
-    name: "superuser",
-    password: "superuser"
+    name: "joe",
+    password: "joeuser"
   }
 }, function(v) {
   inputControls = v.inputControls({
