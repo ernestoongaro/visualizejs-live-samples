@@ -1,0 +1,40 @@
+<script src="http://visualizejsdemo.jaspersoft.com/jasperserver-pro/client/visualize.js"></script>
+<script src="http://code.jquery.com/jquery-2.1.0.js"></script>
+<script src="http://underscorejs.org/underscore-min.js"></script>
+
+<h2>Cascading Input Controls with visualize.js</h2>
+<p>Select the values in the controls below, from left to right.
+  <br/> You will see the contents of the controls change.
+  <br/> The report will update when you select a value from the rightmost control.</p>
+<table border="1">
+  <tr>
+    <td>Product Family</td>
+    <td>Product Category</td>
+    <td>Product Department</td>
+    <td>Product Names (multiple)</td>
+    <tr/>
+    <tr>
+      <td>
+        <select id="Product_Family_selector"></select>
+      </td>
+      <td>
+        <select id="Product_Category_selector"></select>
+      </td>
+      <td>
+        <select id="Product_Department_selector"></select>
+      </td>
+      <td align="top">
+        <select multiple id="Product_Name_selector"></select>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=4>
+        First page of report showing parameters passed or default values.
+      </td>
+    </tr>
+    <tr>
+      <td colspan=4>
+        <div id="container"></div>
+      </td>
+    </tr>
+</table>

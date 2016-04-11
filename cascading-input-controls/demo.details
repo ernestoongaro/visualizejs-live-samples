@@ -1,0 +1,5 @@
+---
+ name: "015. Cascading Input Controls"
+ docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v62/api-reference-visualizejs#Cascading_Input_Controls"
+ description: "Cascading Input Controls are controls that are dependant on each other, for example Product Type -> Food -> Vegetables"
+ wrap: l
