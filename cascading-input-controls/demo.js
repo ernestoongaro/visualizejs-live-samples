@@ -1,7 +1,5 @@
-
-});
-rtUri = "/public/Samples/Reports/Cascading_Report_2_Updated";
-var report, inputControls;
+var reportUri = "/public/Samples/Reports/Cascading_Report_2_Updated";
+var report, inputControls; 
 
 visualize({
   auth: {
