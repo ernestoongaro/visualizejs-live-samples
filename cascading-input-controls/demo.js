@@ -3,7 +3,7 @@ var report, inputControls;
 
 visualize({
   auth: {
-    name: "joe",
+    name: "joeuser",
     password: "joeuser"
   }
 }, function(v) {
